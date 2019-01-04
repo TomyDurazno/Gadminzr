@@ -1,4 +1,4 @@
-Step 0: 
+Step 0 (01/04/2019 Enero): 
 		
 		1) Front-end Architecture:
 		
@@ -26,6 +26,9 @@ Step 0:
 		
 			- Auth service 
 		
+	Edit 2:
+	
+		Se fue por el 'Starter' ya que no hay diferencias evidentes (parece que lo que no hay son los componentes 'Nebula', no problemo with that)
 		
 		
 		
