@@ -1,0 +1,105 @@
+@Status:
+
+	Debe poder manejar: 
+	
+	- Gimnasios, sus profesores y sus clientes
+	
+	Debe reproducir ese modelo de forma multitenant (para contemplar diferentes negocios)
+	
+	Arquitectura:
+	
+		- Primera idea
+			
+			PWA: Progressive Web App is a must! 
+	
+			Angular front-end + Web API 2 back-end, EntityFramework (Codefirst o Database first)
+
+@Status 2:
+			
+		- Qué necesidad hay de que funcione con microservicios, cuando tranquilamente puede ser un site MVC? no sería más straight forward?
+	
+			Edit: Makes sense, ahora lo particularmente importante es el time-to-market. Haciendo un site MVC que funcione responsive al taco, jQuery y deployando como PWA, el TTM se acorta muchísimo, y sigue pudiendo ser modificado en el futuro para que funcione con Microservices si así se necesitara
+	
+			Edit 2: Creo que tengo un template jQuery 100% ready for mobile, tranquilamente puedo usar eso. 
+			
+@Status 3:
+
+		TTM: Site MVC + EF Codefirst + Mobile Template ?
+		
+		Trabajar desde el vamos pensando en las 2 implementaciones (TKD school / Gym) 
+		
+			-> Pensar una full on integration on la Google Suite
+			
+@Status 4:
+
+		Big fallback en el anterior aproach: no funciona como una Single Page Application. Y ese es el comportamiento esperado en una PWA. 
+		Muy probablemente deba ser implementado como Angular 2 + Web API
+
+@Status 5:
+		
+		ngrok, tool utilizada para poder ver en mobile lo que está corriendo en localhost 
+		
+			-> Anda medio lenteja 
+		
+		ngrok http 63927 -host-header="localhost:63927"
+		
+		ngrok http 4200 -host-header="localhost:4200"
+		
+		https://ngrok.com/docs
+						
+
+		No se sabe porque ngrok no termina nunca de cargar el site.						
+		
+		Edit:
+		
+		Usando el aproach de 'ng serve'
+		
+		ip: 192.168.0.4
+		
+		ng serve --host 192.168.0.4
+		
+		http://192.168.0.4:4200/
+		
+		Edit 2:
+		
+		ng serve funca ! vamo !!
+		
+@Status 6:
+		
+		Se debería:
+		
+		- Empezar a pensar las pantallas y las funcionalidades para un MVP
+
+		- Y una vez definido el MVP, pensar un roadmap de features a agregar
+		
+		- Checkear si el style 'cosmic' puede ir, o qué modificaciones se le puede hacer al mismo. 
+		
+		- Empezar investigaciones para PWA (link a pantalla, dónde van los ServiceWorkers, etc)
+		
+		- Pensar una estrategia de deployment (se deberá deployar una DB, un front Angular y n APIs) teniendo entornos tanto de DEV, QA & PROD
+
+@Status 7 (3 de Enero 2019):
+
+		MVP Features:
+			
+		See 'Step 0'
+		
+		- Link to documentation: https://github.com/akveo/ngx-admin
+		
+		- Existe un starter kit branch, fijarse como es ese 
+		
+		@Edit:
+		
+			Templates:
+			
+			- Comparar el 'ngx-admin' con el 'starter' 
+			
+			@So: 
+			
+			a nivel estética, parecen ser iguales. El full debe de tener armados los servicios, posiblemente no sea necesario utilizar esa versión sino la starter. 
+			
+@Status 8:
+
+		Se fue por el Starter:
+		
+		https://github.com/akveo/ngx-admin/tree/starter-kit

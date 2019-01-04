@@ -1,0 +1,29 @@
+Acceder localhost desde mobile (visual studio extension):
+
+https://stackoverflow.com/questions/17316692/viewing-localhost-website-from-mobile-device/17316959
+
+Posible artículo para levantar Angular en Visual Studio:
+
+https://www.talkingdotnet.com/how-to-create-an-angular-6-app-with-visual-studio-2017/
+
+SPA Angular: 
+
+https://www.c-sharpcorner.com/article/how-to-create-spa-using-asp-net-core-and-angular-2/
+
+
+ngrok to access localhost:
+
+https://www.c-sharpcorner.com/blogs/how-to-run-localhost-on-mobile-devices
+
+	-> Works !
+	
+Templates para Angular:
+
+https://www.akveo.com/blog/top-7-nicely-looking-free-open-source-angular-projects/
+
+Docs del ngx-admin:
+
+https://github.com/akveo/ngx-admin
+
+https://akveo.github.io/nebular/docs/getting-started/what-is-nebular#whats-included
+

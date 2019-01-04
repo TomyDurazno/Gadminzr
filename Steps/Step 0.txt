@@ -1,0 +1,32 @@
+Step 0: 
+		
+		1) Front-end Architecture:
+		
+			- Implementar ngRx para manejar el state de la app 
+			
+		2) PWA:
+		
+			- Link to device main screen
+			
+			- Integrar Service workers
+		
+		3) User management:
+
+			- Authentication, Login, Users CRUD
+			
+			- User profile
+		
+			- Role Management
+			
+	Edit: 
+	
+		Fijarse la actual implementación del template 'ngx-admin' (parece que contempla ciertos servicios)
+		
+		-> Analizar la arquitectura
+		
+			- Auth service 
+		
+		
+		
+		
+		
