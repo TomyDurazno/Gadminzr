@@ -27,3 +27,7 @@ https://github.com/akveo/ngx-admin
 
 https://akveo.github.io/nebular/docs/getting-started/what-is-nebular#whats-included
 
+Backend: 
+
+		SmartASP.NET, checkear su pricing plan para darle el host al sistema
+

@@ -30,6 +30,13 @@ Step 0 (01/04/2019 Enero):
 	
 		Se fue por el 'Starter' ya que no hay diferencias evidentes (parece que lo que no hay son los componentes 'Nebula', no problemo with that)
 		
+	
+/*********************************************************************************/
+
+Status:
+
+		Se quiere implementar un auth.guard para poder manejar la autorización (acceso a las páginas)
 		
+		- Fijarse en 'auth0 authentication.txt' la forma de implementar una authentication, y comparar con lo que existe (o no) en el template. 
 		
 		

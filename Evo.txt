@@ -102,4 +102,9 @@
 
 		Se fue por el Starter:
 		
-		https://github.com/akveo/ngx-admin/tree/starter-kit
+		https://github.com/akveo/ngx-admin/tree/starter-kit	
+	
+
+@Status 9:
+
+		Se creó la carpeta 'Steps' en donde se va a ir llevando el estado de las diferentes features. 'Evo' quedará para discusión y seguimiento de la evolución del proyecto. 
