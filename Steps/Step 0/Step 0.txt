@@ -39,4 +39,13 @@ Status:
 		
 		- Fijarse en 'auth0 authentication.txt' la forma de implementar una authentication, y comparar con lo que existe (o no) en el template. 
 		
+			-> Posiblemente haya que adoptar un mecanismo de auth token como el que dijo Pau en su momento. 
 		
+		- Fijarse cómo hace 'Rocketini' para hacer funcar
+		
+			- ngRx
+			
+			- Authentication (guards)
+			
+			- QfhttpService (clase que realiza las llamadas al backend, posiblemente ahí hay que implementar los ServiceWorkers para la PWA)
+			
