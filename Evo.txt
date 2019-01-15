@@ -108,3 +108,8 @@
 @Status 9:
 
 		Se creó la carpeta 'Steps' en donde se va a ir llevando el estado de las diferentes features. 'Evo' quedará para discusión y seguimiento de la evolución del proyecto. 
+		
+@Status 10:
+
+		Pensando en la posibilidad de armar toda la app con un stack MEAN. Podría significar facilidades en deployment y en costo de mantenimiento. Sounds interesting!, mientras tanto se puede seguir desarrollando el front pegándole a API Mocker sin problemas. 
+	
