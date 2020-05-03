@@ -1,0 +1,22 @@
+Status:
+
+	- El MVP de Infra consta de:
+	
+		- ngRx para el manejo de state
+		
+		- Deployear una Api netcore como backend
+		
+		- Con una DB Sql (todo en Azure)
+		
+		- Con authentication
+		
+		- y que funcione como PWA. 
+		
+Once that is done, you got a template for success. 
+
+Status 2:
+
+	Implementado el maneja de state con ngRx, se lo vió funcionar usando de backend a ApiMocker. se va a disparar
+	en un branch. 
+	
+	
