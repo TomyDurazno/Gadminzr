@@ -1,0 +1,9 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "tslint.enable": false,
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/cd72e728-4b3d-4319-bfbe-1aa9800d7201/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/DragonGym",
+    "appService.deploySubpath": ""
+}
